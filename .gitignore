@@ -1,0 +1,6 @@
+.DS_Store
+.vscode
+.ipynb_checkpoints
+*.slides.html
+sandbox.ipynb
+backup

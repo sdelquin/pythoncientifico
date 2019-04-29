@@ -1,0 +1,13 @@
+A = np.array([[1, 2], [1, 4]])
+B = np.array([[-3, 4], [2, 0]])
+C = np.array([[0, -2], [3, 1]])
+D = np.array([[1, -3], [-1, 2]])
+
+print(A + B - C)
+print(A - B + (C - D))
+print(2*A - B)
+print(A - 2*B + 3*C)
+print(3*(A + B) + 0.5*(B - C) + 2*(A - C))
+print(np.dot(A, B + C))
+print(np.dot(A, B) + np.dot(A, C))
+print(np.dot(A, B + np.dot(C, A + B)))
