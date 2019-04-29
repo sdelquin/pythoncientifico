@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -t pythoncientifico .
+docker build -f docker-files/Dockerfile -t pythoncientifico .
