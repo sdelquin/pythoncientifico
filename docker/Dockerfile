@@ -3,7 +3,7 @@ LABEL Maintainer="Sergio Delgado Quintero <sdelquin@gmail.com>"
 
 RUN pip install pipenv
 
-COPY . /pythoncientifico
+COPY .. /pythoncientifico
 
 WORKDIR /pythoncientifico
 RUN pipenv install
