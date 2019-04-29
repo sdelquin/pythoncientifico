@@ -34,8 +34,8 @@ Para recrear el entorno de trabajo basta con hacer lo siguiente:
 ~~~console
 $ git clone https://github.com/sdelquin/pythoncientifico.git
 $ cd pythoncientifico
-pythoncientifico$ ./build-docker.sh
-pythoncientifico$ ./run-docker.sh
+pythoncientifico$ ./docker-build.sh
+pythoncientifico$ ./docker-run.sh
 ~~~
 
 Ahora podremos acceder a: http://127.0.0.1:8080 y veremos *Jupyter Notebook* funcionando y mostrando los archivos del proyecto.
