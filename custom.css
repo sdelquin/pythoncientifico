@@ -1,3 +1,5 @@
+/* Settings for dataframes */
+
 /* title of columns */
 table.dataframe thead th {
     font-size: 1.2em !important;
@@ -28,6 +30,45 @@ table.dataframe tbody tr:hover {
     background: rgba(43, 137, 226, 0.144) !important;
 }
 
+/* Settings for "ordinary" tables */
+
+/* alignment */
+table {
+    margin-left: initial !important;
+}
+
+/* title of columns */
+table thead th {
+    font-size: 1.2em !important;
+    padding-top: 0.2em !important;
+    padding-bottom: 0.2em !important;
+    text-align: left !important;
+}
+
+/* title of rows */
+table tbody th {
+    font-size: 1.2em !important;
+    background: rgba(199, 199, 199, 0.356) !important;
+    border: 1px solid black !important;
+}
+
+/* style for each cell */
+table td {
+    font-size: 1.15em !important;
+    border: 1px solid black !important;
+    text-align: left !important;
+}
+
+/* disable zebra-style */
+table tbody tr {
+    background: white !important;
+}
+
+/* row color on hover */
+table tbody tr:hover {
+    background: rgba(43, 137, 226, 0.144) !important;
+}
+
 /* Settings for slides */
 
 .present table.dataframe thead th {
@@ -47,14 +88,3 @@ table.dataframe tbody tr:hover {
     padding-top: 0.1em !important;
     padding-bottom: 0.1em !important;
 }
-
-
-/*
-
-from IPython.display import HTML
-
-with open('custom.css') as f:
-    css_rules = ''.join(f.readlines())
-HTML('<style>' + css_rules + '</style>')
-
-*/
