@@ -17,7 +17,7 @@ with open('data/cneos_sentry_summary_data.csv') as f:
         prob = float(fields[IMPACT_PROBABILITY])
         speed = float(fields[SPEED])
         diameter = float(fields[DIAMETER])
-        
+
         avg_prob += prob
         if diameter > max_diameter:
             max_diameter = diameter
