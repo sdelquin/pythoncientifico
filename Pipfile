@@ -17,6 +17,3 @@ lightgbm = "*"
 "flake8" = "*"
 yapf = "*"
 rope = "*"
-
-[requires]
-python_version = "3.6"
