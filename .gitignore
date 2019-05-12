@@ -4,3 +4,4 @@
 *.slides.html
 sandbox.ipynb
 backup
+.venv
