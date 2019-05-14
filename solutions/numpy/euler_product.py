@@ -2,7 +2,7 @@ import math
 
 import numpy as np
 
-theta = 30
+theta = 2 * math.pi
 k = 20
 
 values = np.arange(1, k, dtype='float64')
